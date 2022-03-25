@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Hadsentials:jar">
+    <output-path>M:/Server/TEST_SERVER/plugins</output-path>
+    <root id="archive" name="Hadsentials.jar">
+      <element id="module-output" name="Hadsentials" />
+    </root>
+  </artifact>
+</component>
