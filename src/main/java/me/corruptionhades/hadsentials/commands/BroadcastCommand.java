@@ -1,6 +1,7 @@
 package me.corruptionhades.hadsentials.commands;
 
 import me.corruptionhades.hadsentials.Hadsentials;
+import me.corruptionhades.hadsentials.utils.LanguageFilesUtils;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
@@ -18,7 +19,7 @@ public class BroadcastCommand implements CommandExecutor {
 
         Player p = (Player) sender;
         Plugin plugin = Hadsentials.getPlugin(Hadsentials.class);
-        String noperm = plugin.getConfig().getString("no-perm");
+        String noperm = LanguageFilesUtils.getValue(plugin.getConfig().getString("language"), "noperms");
 
         String prefix = plugin.getConfig().getString("prefix");
 
@@ -31,7 +32,7 @@ public class BroadcastCommand implements CommandExecutor {
                     message.append(args[i]).append(" ");
                 }
 
-                Bukkit.broadcastMessage(ChatColor.translateAlternateColorCodes('&', plugin.getConfig().getString("prefix")) + "§f " + String.valueOf(message));
+                Bukkit.broadcastMessage(ChatColor.translateAlternateColorCodes('&', plugin.getConfig().getString("prefix")) + "§f " + ChatColor.translateAlternateColorCodes('&',String.valueOf(message)));
 
             }else {
                 p.sendMessage(noperm);

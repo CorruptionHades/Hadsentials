@@ -1,0 +1,3 @@
+messages:
+  "no-perm": "&cUnbekannter Befehl. Gib /help ein, um eine Liste von Befehlen zu erhalten"
+  "language-change": "&aSprache wurde erfolgreich zu {lang} geändert!"

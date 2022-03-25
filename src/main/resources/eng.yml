@@ -1,0 +1,4 @@
+messages:
+  "no-perm": "Unknown command. Type /help for help."
+  "language-change": "&aSuccessfully changed language to"
+  "gamemode": "&7Set own gamemode to"

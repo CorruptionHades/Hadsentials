@@ -35,3 +35,25 @@ commands:
     description: Lets you fly!
     usage: /fly <player>
     aliases: [flight, flymode, flightmode]
+  lang:
+    description: Change the Language teh plugin uses.
+    usage: /lang, /language <language>
+    aliases: [language]
+  gms:
+    description: Change you gamemode!
+    usage: /gms <player>
+  gma:
+    description: Change you gamemode!
+    usage: /gma <player>
+  gmc:
+    description: Change you gamemode!
+    usage: /gmc <player>
+  gmsp:
+    description: Change you gamemode!
+    usage: /gmsp <player>
+  gm:
+    description: Change your gamemode!
+    usage: /gm <gamemode> <player>
+  vanish:
+    description: Hide from other players!
+    usage: /vanish, /vanish off
