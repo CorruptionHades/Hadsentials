@@ -1,0 +1,37 @@
+name: Hadsentials
+version: '${project.version}'
+main: me.corruptionhades.hadsentials.Hadsentials
+api-version: 1.18
+prefix: [ HE ]
+authors: [ CorruptionHades ]
+description: Hades' Essential plugin
+commands:
+  see:
+    description: lets you see in the dark
+    aliases: [fullbright, nightvision]
+    usage: /see <player>
+  feed:
+    description: Fills up your hunger bar
+    usage: /feed <player>
+  hi:
+    description: hi
+    usage: /hi
+  god:
+    description: Become invincible!
+    aliases: [godmode]
+    usage: /god, /godmode <player>
+  broadcast:
+    description: Broadcast a message to all online players!
+    usage: /broadcrast <message>
+    aliases: [bc]
+  heal:
+    description: Heals you.
+    usage: /heal <player>
+  hereload:
+    description: Reloads Hadsentials
+    usage: /hereload, herl
+    aliases: [herl]
+  fly:
+    description: Lets you fly!
+    usage: /fly <player>
+    aliases: [flight, flymode, flightmode]
